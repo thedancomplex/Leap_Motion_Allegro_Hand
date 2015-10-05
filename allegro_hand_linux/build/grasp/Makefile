@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Downloads/allegro_hand_linux
+CMAKE_SOURCE_DIR = /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Downloads/allegro_hand_linux/build
+CMAKE_BINARY_DIR = /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/student/Downloads/allegro_hand_linux/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/Downloads/allegro_hand_linux/build/CMakeFiles /home/student/Downloads/allegro_hand_linux/build/grasp/CMakeFiles/progress.marks
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f CMakeFiles/Makefile2 grasp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/Downloads/allegro_hand_linux/build/CMakeFiles 0
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/CMakeFiles /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp/CMakeFiles/progress.marks
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f CMakeFiles/Makefile2 grasp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f CMakeFiles/Makefile2 grasp/clean
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f CMakeFiles/Makefile2 grasp/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f CMakeFiles/Makefile2 grasp/preinstall
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f CMakeFiles/Makefile2 grasp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f CMakeFiles/Makefile2 grasp/preinstall
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f CMakeFiles/Makefile2 grasp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 grasp/CMakeFiles/grasp.dir/rule:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f CMakeFiles/Makefile2 grasp/CMakeFiles/grasp.dir/rule
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f CMakeFiles/Makefile2 grasp/CMakeFiles/grasp.dir/rule
 .PHONY : grasp/CMakeFiles/grasp.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ grasp: grasp/CMakeFiles/grasp.dir/rule
 
 # fast build rule for target.
 grasp/fast:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/build
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/build
 .PHONY : grasp/fast
 
 RockScissorsPaper.o: RockScissorsPaper.cpp.o
@@ -158,7 +158,7 @@ RockScissorsPaper.o: RockScissorsPaper.cpp.o
 
 # target to build an object file
 RockScissorsPaper.cpp.o:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.o
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.o
 .PHONY : RockScissorsPaper.cpp.o
 
 RockScissorsPaper.i: RockScissorsPaper.cpp.i
@@ -166,7 +166,7 @@ RockScissorsPaper.i: RockScissorsPaper.cpp.i
 
 # target to preprocess a source file
 RockScissorsPaper.cpp.i:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.i
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.i
 .PHONY : RockScissorsPaper.cpp.i
 
 RockScissorsPaper.s: RockScissorsPaper.cpp.s
@@ -174,7 +174,7 @@ RockScissorsPaper.s: RockScissorsPaper.cpp.s
 
 # target to generate assembly for a file
 RockScissorsPaper.cpp.s:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.s
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.s
 .PHONY : RockScissorsPaper.cpp.s
 
 canAPI.o: canAPI.cpp.o
@@ -182,7 +182,7 @@ canAPI.o: canAPI.cpp.o
 
 # target to build an object file
 canAPI.cpp.o:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/canAPI.cpp.o
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/canAPI.cpp.o
 .PHONY : canAPI.cpp.o
 
 canAPI.i: canAPI.cpp.i
@@ -190,7 +190,7 @@ canAPI.i: canAPI.cpp.i
 
 # target to preprocess a source file
 canAPI.cpp.i:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/canAPI.cpp.i
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/canAPI.cpp.i
 .PHONY : canAPI.cpp.i
 
 canAPI.s: canAPI.cpp.s
@@ -198,7 +198,7 @@ canAPI.s: canAPI.cpp.s
 
 # target to generate assembly for a file
 canAPI.cpp.s:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/canAPI.cpp.s
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/canAPI.cpp.s
 .PHONY : canAPI.cpp.s
 
 main.o: main.cpp.o
@@ -206,7 +206,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/main.cpp.o
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -214,7 +214,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/main.cpp.i
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -222,7 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/main.cpp.s
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

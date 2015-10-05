@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Downloads/allegro_hand_linux
+CMAKE_SOURCE_DIR = /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Downloads/allegro_hand_linux/build
+CMAKE_BINARY_DIR = /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build
 
 # Include any dependencies generated for this target.
 include grasp/CMakeFiles/grasp.dir/depend.make
@@ -51,17 +51,17 @@ include grasp/CMakeFiles/grasp.dir/flags.make
 
 grasp/CMakeFiles/grasp.dir/main.cpp.o: grasp/CMakeFiles/grasp.dir/flags.make
 grasp/CMakeFiles/grasp.dir/main.cpp.o: ../grasp/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/Downloads/allegro_hand_linux/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object grasp/CMakeFiles/grasp.dir/main.cpp.o"
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/grasp.dir/main.cpp.o -c /home/student/Downloads/allegro_hand_linux/grasp/main.cpp
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/grasp.dir/main.cpp.o -c /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/main.cpp
 
 grasp/CMakeFiles/grasp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grasp.dir/main.cpp.i"
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/student/Downloads/allegro_hand_linux/grasp/main.cpp > CMakeFiles/grasp.dir/main.cpp.i
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/main.cpp > CMakeFiles/grasp.dir/main.cpp.i
 
 grasp/CMakeFiles/grasp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grasp.dir/main.cpp.s"
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/student/Downloads/allegro_hand_linux/grasp/main.cpp -o CMakeFiles/grasp.dir/main.cpp.s
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/main.cpp -o CMakeFiles/grasp.dir/main.cpp.s
 
 grasp/CMakeFiles/grasp.dir/main.cpp.o.requires:
 .PHONY : grasp/CMakeFiles/grasp.dir/main.cpp.o.requires
@@ -74,17 +74,17 @@ grasp/CMakeFiles/grasp.dir/main.cpp.o.provides.build: grasp/CMakeFiles/grasp.dir
 
 grasp/CMakeFiles/grasp.dir/canAPI.cpp.o: grasp/CMakeFiles/grasp.dir/flags.make
 grasp/CMakeFiles/grasp.dir/canAPI.cpp.o: ../grasp/canAPI.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/Downloads/allegro_hand_linux/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object grasp/CMakeFiles/grasp.dir/canAPI.cpp.o"
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/grasp.dir/canAPI.cpp.o -c /home/student/Downloads/allegro_hand_linux/grasp/canAPI.cpp
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/grasp.dir/canAPI.cpp.o -c /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/canAPI.cpp
 
 grasp/CMakeFiles/grasp.dir/canAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grasp.dir/canAPI.cpp.i"
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/student/Downloads/allegro_hand_linux/grasp/canAPI.cpp > CMakeFiles/grasp.dir/canAPI.cpp.i
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/canAPI.cpp > CMakeFiles/grasp.dir/canAPI.cpp.i
 
 grasp/CMakeFiles/grasp.dir/canAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grasp.dir/canAPI.cpp.s"
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/student/Downloads/allegro_hand_linux/grasp/canAPI.cpp -o CMakeFiles/grasp.dir/canAPI.cpp.s
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/canAPI.cpp -o CMakeFiles/grasp.dir/canAPI.cpp.s
 
 grasp/CMakeFiles/grasp.dir/canAPI.cpp.o.requires:
 .PHONY : grasp/CMakeFiles/grasp.dir/canAPI.cpp.o.requires
@@ -97,17 +97,17 @@ grasp/CMakeFiles/grasp.dir/canAPI.cpp.o.provides.build: grasp/CMakeFiles/grasp.d
 
 grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.o: grasp/CMakeFiles/grasp.dir/flags.make
 grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.o: ../grasp/RockScissorsPaper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/Downloads/allegro_hand_linux/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.o"
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/grasp.dir/RockScissorsPaper.cpp.o -c /home/student/Downloads/allegro_hand_linux/grasp/RockScissorsPaper.cpp
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/grasp.dir/RockScissorsPaper.cpp.o -c /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/RockScissorsPaper.cpp
 
 grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grasp.dir/RockScissorsPaper.cpp.i"
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/student/Downloads/allegro_hand_linux/grasp/RockScissorsPaper.cpp > CMakeFiles/grasp.dir/RockScissorsPaper.cpp.i
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/RockScissorsPaper.cpp > CMakeFiles/grasp.dir/RockScissorsPaper.cpp.i
 
 grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grasp.dir/RockScissorsPaper.cpp.s"
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/student/Downloads/allegro_hand_linux/grasp/RockScissorsPaper.cpp -o CMakeFiles/grasp.dir/RockScissorsPaper.cpp.s
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/RockScissorsPaper.cpp -o CMakeFiles/grasp.dir/RockScissorsPaper.cpp.s
 
 grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.o.requires:
 .PHONY : grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.o.requires
@@ -133,7 +133,7 @@ grasp/grasp: grasp/CMakeFiles/grasp.dir/RockScissorsPaper.cpp.o
 grasp/grasp: grasp/CMakeFiles/grasp.dir/build.make
 grasp/grasp: grasp/CMakeFiles/grasp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable grasp"
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/grasp.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/grasp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 grasp/CMakeFiles/grasp.dir/build: grasp/grasp
@@ -145,10 +145,10 @@ grasp/CMakeFiles/grasp.dir/requires: grasp/CMakeFiles/grasp.dir/RockScissorsPape
 .PHONY : grasp/CMakeFiles/grasp.dir/requires
 
 grasp/CMakeFiles/grasp.dir/clean:
-	cd /home/student/Downloads/allegro_hand_linux/build/grasp && $(CMAKE_COMMAND) -P CMakeFiles/grasp.dir/cmake_clean.cmake
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp && $(CMAKE_COMMAND) -P CMakeFiles/grasp.dir/cmake_clean.cmake
 .PHONY : grasp/CMakeFiles/grasp.dir/clean
 
 grasp/CMakeFiles/grasp.dir/depend:
-	cd /home/student/Downloads/allegro_hand_linux/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/Downloads/allegro_hand_linux /home/student/Downloads/allegro_hand_linux/grasp /home/student/Downloads/allegro_hand_linux/build /home/student/Downloads/allegro_hand_linux/build/grasp /home/student/Downloads/allegro_hand_linux/build/grasp/CMakeFiles/grasp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp/CMakeFiles/grasp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : grasp/CMakeFiles/grasp.dir/depend
 

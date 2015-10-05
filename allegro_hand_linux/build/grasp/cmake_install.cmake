@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/Downloads/allegro_hand_linux/grasp
+# Install script for directory: /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,19 +33,19 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  IF(EXISTS "$ENV{DESTDIR}/home/student/Downloads/allegro_hand_linux/build/bin/grasp" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/student/Downloads/allegro_hand_linux/build/bin/grasp")
+  IF(EXISTS "$ENV{DESTDIR}/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/bin/grasp" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/bin/grasp")
     FILE(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/student/Downloads/allegro_hand_linux/build/bin/grasp"
+         FILE "$ENV{DESTDIR}/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/bin/grasp"
          RPATH "")
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/home/student/Downloads/allegro_hand_linux/build/bin/grasp")
-FILE(INSTALL DESTINATION "/home/student/Downloads/allegro_hand_linux/build/bin" TYPE EXECUTABLE FILES "/home/student/Downloads/allegro_hand_linux/build/grasp/grasp")
-  IF(EXISTS "$ENV{DESTDIR}/home/student/Downloads/allegro_hand_linux/build/bin/grasp" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/student/Downloads/allegro_hand_linux/build/bin/grasp")
+   "/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/bin/grasp")
+FILE(INSTALL DESTINATION "/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/bin" TYPE EXECUTABLE FILES "/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp/grasp")
+  IF(EXISTS "$ENV{DESTDIR}/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/bin/grasp" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/bin/grasp")
     IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/student/Downloads/allegro_hand_linux/build/bin/grasp")
+      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/bin/grasp")
     ENDIF(CMAKE_INSTALL_DO_STRIP)
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

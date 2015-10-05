@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/student/Downloads/allegro_hand_linux/grasp/RockScissorsPaper.cpp
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/RockScissorsPaper.cpp
 rDeviceAllegroHandCANDef.h
-/home/student/Downloads/allegro_hand_linux/grasp/rDeviceAllegroHandCANDef.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/rDeviceAllegroHandCANDef.h
 BHand/BHand.h
 -
 
-/home/student/Downloads/allegro_hand_linux/grasp/RockScissorsPaper.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/RockScissorsPaper.h
 
-/home/student/Downloads/allegro_hand_linux/grasp/canAPI.cpp
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/canAPI.cpp
 stdio.h
 -
 errno.h
@@ -36,17 +36,17 @@ assert.h
 PCANBasic.h
 -
 canDef.h
-/home/student/Downloads/allegro_hand_linux/grasp/canDef.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/canDef.h
 canAPI.h
-/home/student/Downloads/allegro_hand_linux/grasp/canAPI.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/canAPI.h
 
-/home/student/Downloads/allegro_hand_linux/grasp/canAPI.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/canAPI.h
 canDef.h
-/home/student/Downloads/allegro_hand_linux/grasp/canDef.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/canDef.h
 
-/home/student/Downloads/allegro_hand_linux/grasp/canDef.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/canDef.h
 
-/home/student/Downloads/allegro_hand_linux/grasp/main.cpp
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/main.cpp
 stdio.h
 -
 stdint.h
@@ -60,13 +60,13 @@ string.h
 pthread.h
 -
 canAPI.h
-/home/student/Downloads/allegro_hand_linux/grasp/canAPI.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/canAPI.h
 rDeviceAllegroHandCANDef.h
-/home/student/Downloads/allegro_hand_linux/grasp/rDeviceAllegroHandCANDef.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/rDeviceAllegroHandCANDef.h
 RockScissorsPaper.h
-/home/student/Downloads/allegro_hand_linux/grasp/RockScissorsPaper.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/RockScissorsPaper.h
 BHand/BHand.h
 -
 
-/home/student/Downloads/allegro_hand_linux/grasp/rDeviceAllegroHandCANDef.h
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/grasp/rDeviceAllegroHandCANDef.h
 

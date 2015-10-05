@@ -1,1 +1,1 @@
-/home/student/Downloads/allegro_hand_linux/build/grasp/CMakeFiles/grasp.dir
+/home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/grasp/CMakeFiles/grasp.dir

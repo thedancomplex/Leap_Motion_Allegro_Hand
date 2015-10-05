@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/Downloads/allegro_hand_linux
+CMAKE_SOURCE_DIR = /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/Downloads/allegro_hand_linux/build
+CMAKE_BINARY_DIR = /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build
 
 #=============================================================================
 # Directory level rules for directory grasp
@@ -74,7 +74,7 @@ grasp/preinstall:
 grasp/CMakeFiles/grasp.dir/all:
 	$(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/depend
 	$(MAKE) -f grasp/CMakeFiles/grasp.dir/build.make grasp/CMakeFiles/grasp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/Downloads/allegro_hand_linux/build/CMakeFiles  1 2 3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/CMakeFiles  1 2 3
 	@echo "Built target grasp"
 .PHONY : grasp/CMakeFiles/grasp.dir/all
 
@@ -84,9 +84,9 @@ all: grasp/CMakeFiles/grasp.dir/all
 
 # Build rule for subdir invocation for target.
 grasp/CMakeFiles/grasp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/Downloads/allegro_hand_linux/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 grasp/CMakeFiles/grasp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/Downloads/allegro_hand_linux/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/projects/Leap_Motion_Allegro_hand/allegro_hand_linux/build/CMakeFiles 0
 .PHONY : grasp/CMakeFiles/grasp.dir/rule
 
 # Convenience name for target.

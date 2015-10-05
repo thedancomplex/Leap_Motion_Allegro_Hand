@@ -1,1 +1,0 @@
-/home/student/Downloads/allegro_hand_linux/build/bin/grasp
